@@ -1,0 +1,60 @@
+﻿<Properties StartupConfiguration="{78AC6E01-ACFB-463B-BD5F-2B676C06F284}|UltraTix2022">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.UltraTixTest FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UltraTix2022.Data/Models/ViewModels/Entities/ArtistRequest/ArtistRequestInsertModel.cs">
+    <Files>
+      <File FileName="UltraTix2022.Data/Models/ViewModels/Entities/ArtistRequest/AtistRequestViewModel.cs" />
+      <File FileName="Controllers/RequestController.cs" />
+      <File FileName="UltraTix2022.Business/Services/ArtistRequestServices/IArtistRequestService.cs" />
+      <File FileName="UltraTix2022.Business/Services/ArtistRequestServices/ArtistRequestService.cs" Line="50" Column="59" />
+      <File FileName="UltraTix2022.Data/Models/Entities/ArtistRequest.cs" NotebookId="1" />
+      <File FileName="UltraTix2022.Data/Models/ViewModels/Entities/ArtistRequest/ArtistRequestInsertModel.cs" Line="9" Column="51" NotebookId="1" />
+      <File FileName="UltraTix2022.Business/Services/ShowService/ShowService.cs" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UltraTix2022" expanded="True">
+            <Node name="UltraTix2022.API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="UltraTix2022.Business" expanded="True">
+                <Node name="Services" expanded="True">
+                  <Node name="ArtistRequestServices" expanded="True" />
+                  <Node name="OrganizerService" expanded="True" />
+                  <Node name="PaymentService" expanded="True" />
+                  <Node name="PostService" expanded="True" />
+                  <Node name="SecretServices" expanded="True" />
+                  <Node name="ShowOrderService" expanded="True" />
+                  <Node name="ShowService" expanded="True" />
+                  <Node name="ShowStaffService" expanded="True" />
+                  <Node name="ShowTransactionService" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="UltraTix2022.Data" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="Entities" expanded="True" />
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="Entities" expanded="True">
+                      <Node name="ArtistRequest" expanded="True">
+                        <Node name="ArtistRequestInsertModel.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="Repositories" expanded="True">
+                  <Node name="ImplementedRepositories" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UltraTix2022.API PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

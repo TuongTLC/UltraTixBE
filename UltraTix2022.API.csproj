@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<UserSecretsId>d8a6d075-a68f-4883-8fa9-25fa124b6eb3</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'UltraTix2022' " />
+  <ItemGroup>
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.2.2" />
+    <PackageReference Include="Azure.Identity" Version="1.7.0" />
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.4.0" />
+
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.13.1" />
+    <PackageReference Include="Azure.Storage.Files.Shares" Version="12.11.0" />
+    <PackageReference Include="Azure.Storage.Queues" Version="12.11.1" />
+    <PackageReference Include="Diacritics" Version="3.3.14" />
+
+    <PackageReference Include="FirebaseAdmin" Version="2.3.0" />
+    <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+    <PackageReference Include="Google.Apis.FirebaseDynamicLinks.v1" Version="1.58.0.2510" />
+    <PackageReference Include="MailKit" Version="3.4.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Azure" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.9" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UltraTix2022.Data\Models\RequestModel\Entities\Post\" />
+    <Folder Include="UltraTix2022.Data\Repositories\ImplementedRepositories\ShowCategoryRepo\" />
+    <Folder Include="UltraTix2022.Business\Services\ShowCategoryService\" />
+    <Folder Include="UltraTix2022.Data\Models\RequestModel\Entities\MoMo\" />
+    <Folder Include="UltraTix2022.Data\Repositories\ImplementedRepositories\MoMoRepo\" />
+    <Folder Include="UltraTix2022.Data\Repositories\ImplementedRepositories\FeedbackRepo\" />
+    <Folder Include="UltraTix2022.Business\Services\FeedbackServices\" />
+    <Folder Include="UltraTix2022.Data\Models\ViewModels\Entities\Feedback\" />
+    <Folder Include="UltraTix2022.Data\Repositories\ImplementedRepositories\PostCommentRepo\" />
+    <Folder Include="UltraTix2022.Data\Models\ViewModels\Entities\ArtistRequest\" />
+    <Folder Include="UltraTix2022.Data\Repositories\ImplementedRepositories\ArtistRequestRepo\" />
+    <Folder Include="UltraTix2022.Business\Services\ArtistRequestServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.Azure.Services.AppAuthentication" />
+    <None Remove="UltraTix2022.Data\Repositories\ImplementedRepositories\ShowCategoryRepo\" />
+    <None Remove="UltraTix2022.Business\Services\ShowCategoryService\" />
+    <None Remove="UltraTix2022.Data\Models\RequestModel\Entities\MoMo\" />
+    <None Remove="UltraTix2022.Data\Repositories\ImplementedRepositories\MoMoRepo\" />
+    <None Remove="UltraTix2022.Data\Repositories\ImplementedRepositories\FeedbackRepo\" />
+    <None Remove="UltraTix2022.Business\Services\FeedbackServices\" />
+    <None Remove="UltraTix2022.Data\Models\ViewModels\Entities\Feedback\" />
+    <None Remove="UltraTix2022.Data\Repositories\ImplementedRepositories\PostCommentRepo\" />
+    <None Remove="UltraTix2022.Data\Models\ViewModels\Entities\ArtistRequest\" />
+    <None Remove="UltraTix2022.Data\Repositories\ImplementedRepositories\ArtistRequestRepo\" />
+    <None Remove="UltraTix2022.Business\Services\ArtistRequestServices\" />
+  </ItemGroup>
+</Project>

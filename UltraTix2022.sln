@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraTix2022.API", "UltraTix2022.API.csproj", "{78AC6E01-ACFB-463B-BD5F-2B676C06F284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78AC6E01-ACFB-463B-BD5F-2B676C06F284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AC6E01-ACFB-463B-BD5F-2B676C06F284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AC6E01-ACFB-463B-BD5F-2B676C06F284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AC6E01-ACFB-463B-BD5F-2B676C06F284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DF79A18-F76D-445E-B64B-9F030A91D9D3}
+	EndGlobalSection
+EndGlobal

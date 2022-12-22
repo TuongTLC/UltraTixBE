@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "storage1": {
+      "secretStore": "AzureKeyVault",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/ultratiximg",
+      "type": "storage.azure",
+      "connectionId": "ultratixshowimg",
+      "dynamicId": null
+    },
+    "secrets2": {
+      "type": "secrets.user",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    },
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/ultratix2022keyvault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    }
+  }
+}

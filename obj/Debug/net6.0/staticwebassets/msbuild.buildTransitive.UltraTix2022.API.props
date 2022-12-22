@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/UltraTix2022.API.props" />
+</Project>
