@@ -13581,24 +13581,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/tuongtlc/.nuget/packages/": {}
+    "C:\\Users\\trinh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tuongtlc/GitHub/UltraTix2022-BE/UltraTix2022.API.csproj",
+      "projectUniqueName": "C:\\Users\\trinh\\OneDrive\\Documents\\GitHub\\UltraTixBE\\UltraTix2022.API.csproj",
       "projectName": "UltraTix2022.API",
-      "projectPath": "/Users/tuongtlc/GitHub/UltraTix2022-BE/UltraTix2022.API.csproj",
-      "packagesPath": "/Users/tuongtlc/.nuget/packages/",
-      "outputPath": "/Users/tuongtlc/GitHub/UltraTix2022-BE/obj/",
+      "projectPath": "C:\\Users\\trinh\\OneDrive\\Documents\\GitHub\\UltraTixBE\\UltraTix2022.API.csproj",
+      "packagesPath": "C:\\Users\\trinh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trinh\\OneDrive\\Documents\\GitHub\\UltraTixBE\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/tuongtlc/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\trinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -13735,7 +13742,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
